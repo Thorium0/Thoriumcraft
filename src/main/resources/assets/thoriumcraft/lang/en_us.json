@@ -1,0 +1,10 @@
+{
+  "item.thoriumcraft.thorium_ingot": "Thorium Ingot",
+  "item.thoriumcraft.thorium_nugget": "Thorium Nugget",
+  "item.thoriumcraft.raw_thorium": "Raw Thorium",
+
+  "block.thoriumcraft.thorium_block": "Thorium Block",
+  "block.thoriumcraft.thorium_ore": "Thorium Ore",
+
+  "itemGroup.thoriumCraftTab": "ThoriumCraft"
+}
