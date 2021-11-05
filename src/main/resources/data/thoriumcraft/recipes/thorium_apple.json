@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#x#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thoriumcraft:thorium_nugget"
+    },
+    "x": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result":  {
+    "item": "thoriumcraft:thorium_apple"
+  }
+}

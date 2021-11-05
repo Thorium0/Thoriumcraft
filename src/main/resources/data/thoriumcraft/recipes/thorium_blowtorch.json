@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "dr#",
+    "no "
+  ],
+  "key": {
+    "#": {
+      "item": "thoriumcraft:thorium_ingot"
+    },
+    "o": {
+      "item": "thoriumcraft:thorium_block"
+    },
+    "n": {
+      "item": "thoriumcraft:thorium_nugget"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":  {
+    "item": "thoriumcraft:thorium_blowtorch"
+  }
+}
