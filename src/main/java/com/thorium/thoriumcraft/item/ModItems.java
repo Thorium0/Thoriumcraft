@@ -40,16 +40,16 @@ public class ModItems {
             () -> new ModPickaxeItem(ModTier.THORIUM, 0, -3f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_AXE = ITEMS.register("thorium_axe",
-            () -> new ModPickaxeItem(ModTier.THORIUM, 4, -2f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+            () -> new ModPickaxeItem(ModTier.THORIUM, 6, -2.5f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_SWORD = ITEMS.register("thorium_sword",
-            () -> new ModPickaxeItem(ModTier.THORIUM, 2, 2f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+            () -> new ModPickaxeItem(ModTier.THORIUM, 3, 0f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_SHOVEL = ITEMS.register("thorium_shovel",
             () -> new ModPickaxeItem(ModTier.THORIUM, 0, 0f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_HOE = ITEMS.register("thorium_hoe",
-            () -> new ModPickaxeItem(ModTier.THORIUM, -1, 3f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+            () -> new ModPickaxeItem(ModTier.THORIUM, -1, 1f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
 
     public static void register(IEventBus eventBus) {
