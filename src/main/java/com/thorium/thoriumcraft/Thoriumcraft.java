@@ -21,15 +21,15 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ThoriumCraft.MOD_ID)
-public class ThoriumCraft
+@Mod(Thoriumcraft.MOD_ID)
+public class Thoriumcraft
 {
     public static final String MOD_ID = "thoriumcraft";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
 
-    public ThoriumCraft() {
+    public Thoriumcraft() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);

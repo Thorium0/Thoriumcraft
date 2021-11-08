@@ -3,11 +3,15 @@
   "item.thoriumcraft.thorium_nugget": "Thorium Nugget",
   "item.thoriumcraft.raw_thorium": "Raw Thorium",
   "item.thoriumcraft.thorium_pickaxe": "Thorium Pickaxe",
+  "item.thoriumcraft.thorium_axe": "Thorium Axe",
+  "item.thoriumcraft.thorium_sword": "Thorium Sword",
+  "item.thoriumcraft.thorium_shovel": "Thorium Shovel",
+  "item.thoriumcraft.thorium_hoe": "Thorium Hoe",
   "item.thoriumcraft.thorium_apple": "Thorium Apple",
   "item.thoriumcraft.thorium_blowtorch": "Thorium Blowtorch",
 
   "block.thoriumcraft.thorium_block": "Thorium Block",
   "block.thoriumcraft.thorium_ore": "Thorium Ore",
 
-  "itemGroup.thoriumCraftTab": "ThoriumCraft"
+  "itemGroup.thoriumcraftTab": "Thoriumcraft"
 }

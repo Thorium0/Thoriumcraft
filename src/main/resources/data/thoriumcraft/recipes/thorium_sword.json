@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "l"
+  ],
+  "key": {
+    "#": {
+      "item": "thoriumcraft:thorium_ingot"
+    },
+    "l": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":  {
+    "item": "thoriumcraft:thorium_sword"
+  }
+}

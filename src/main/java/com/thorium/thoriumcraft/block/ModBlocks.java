@@ -1,6 +1,6 @@
 package com.thorium.thoriumcraft.block;
 
-import com.thorium.thoriumcraft.ThoriumCraft;
+import com.thorium.thoriumcraft.Thoriumcraft;
 import com.thorium.thoriumcraft.item.ModCreativeModeTab;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, ThoriumCraft.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Thoriumcraft.MOD_ID);
 
     public static final RegistryObject<Block> THORIUM_BLOCK = registerBlock("thorium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(8f).requiresCorrectToolForDrops()));
@@ -42,7 +42,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB)));
+                new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
     }
 
     public static void register(IEventBus eventBus) {

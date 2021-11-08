@@ -1,7 +1,8 @@
 package com.thorium.thoriumcraft.item;
 
-import com.thorium.thoriumcraft.ThoriumCraft;
+import com.thorium.thoriumcraft.Thoriumcraft;
 import com.thorium.thoriumcraft.item.custom.BlowtorchItem;
+import com.thorium.thoriumcraft.item.custom.ModPickaxeItem;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
@@ -16,27 +17,39 @@ import java.util.function.Supplier;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, ThoriumCraft.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, Thoriumcraft.MOD_ID);
 
 
     public static final RegistryObject<Item> THORIUM_INGOT = ITEMS.register("thorium_ingot",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_NUGGET = ITEMS.register("thorium_nugget",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> RAW_THORIUM = ITEMS.register("raw_thorium",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
     public static final RegistryObject<Item> THORIUM_APPLE = ITEMS.register("thorium_apple",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB)
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)
                     .food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8f).build())));
 
     public static final RegistryObject<Item> THORIUM_BLOWTORCH = ITEMS.register("thorium_blowtorch",
-            () -> new BlowtorchItem(new Item.Properties().tab(ModCreativeModeTab.THORIUMMOD_TAB).durability(512)));
+            () -> new BlowtorchItem(new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB).durability(512)));
 
-    //public static final RegistryObject<Item> THORIUM_PICKAXE = ITEMS.register("thorium_pickaxe",
-    //        () -> new PickaxeItem());
+    public static final RegistryObject<Item> THORIUM_PICKAXE = ITEMS.register("thorium_pickaxe",
+            () -> new ModPickaxeItem(ModTier.THORIUM, 0, -3f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+
+    public static final RegistryObject<Item> THORIUM_AXE = ITEMS.register("thorium_axe",
+            () -> new ModPickaxeItem(ModTier.THORIUM, 4, -2f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+
+    public static final RegistryObject<Item> THORIUM_SWORD = ITEMS.register("thorium_sword",
+            () -> new ModPickaxeItem(ModTier.THORIUM, 2, 2f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+
+    public static final RegistryObject<Item> THORIUM_SHOVEL = ITEMS.register("thorium_shovel",
+            () -> new ModPickaxeItem(ModTier.THORIUM, 0, 0f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
+
+    public static final RegistryObject<Item> THORIUM_HOE = ITEMS.register("thorium_hoe",
+            () -> new ModPickaxeItem(ModTier.THORIUM, -1, 3f, new Item.Properties().tab(ModCreativeModeTab.THORIUMCRAFT_TAB)));
 
 
     public static void register(IEventBus eventBus) {
