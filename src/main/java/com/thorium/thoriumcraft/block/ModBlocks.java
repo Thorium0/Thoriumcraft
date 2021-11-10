@@ -1,6 +1,7 @@
 package com.thorium.thoriumcraft.block;
 
 import com.thorium.thoriumcraft.Thoriumcraft;
+import com.thorium.thoriumcraft.block.custom.ThoriumTile;
 import com.thorium.thoriumcraft.item.ModCreativeModeTab;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -25,6 +26,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> THORIUM_ORE = registerBlock("thorium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(8f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> THORIUM_TILE = registerBlock("thorium_tile",
+            () -> new ThoriumTile(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()));
 
 
 

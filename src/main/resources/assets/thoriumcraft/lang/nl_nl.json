@@ -1,0 +1,22 @@
+{
+  "item.thoriumcraft.thorium_ingot": "Thoriumstaaf",
+  "item.thoriumcraft.thorium_nugget": "Thoriumklompje",
+  "item.thoriumcraft.raw_thorium": "Ruw Thorium",
+  "item.thoriumcraft.thorium_pickaxe": "Thorium Houweel",
+  "item.thoriumcraft.thorium_axe": "Thorium bijl",
+  "item.thoriumcraft.thorium_sword": "Thorium zwaard",
+  "item.thoriumcraft.thorium_shovel": "Thorium schop",
+  "item.thoriumcraft.thorium_hoe": "Thorium schoffel",
+  "item.thoriumcraft.thorium_apple": "Thorium appel",
+  "item.thoriumcraft.thorium_blowtorch": "Thorium gasbrander",
+  "item.thoriumcraft.thorium_helmet": "Thorium helm",
+  "item.thoriumcraft.thorium_chestplate": "Thorium borstplaat",
+  "item.thoriumcraft.thorium_leggings": "Thorium legging",
+  "item.thoriumcraft.thorium_boots": "Thorium laarzen",
+
+  "block.thoriumcraft.thorium_block": "Thorium blok",
+  "block.thoriumcraft.thorium_ore": "Thorium erts",
+  "block.thoriumcraft.thorium_tile": "Thorium tegel",
+
+  "itemGroup.thoriumcraftTab": "Thoriumcraft"
+}

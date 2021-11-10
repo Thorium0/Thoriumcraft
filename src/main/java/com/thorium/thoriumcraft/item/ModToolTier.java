@@ -1,14 +1,12 @@
 package com.thorium.thoriumcraft.item;
 
-import net.minecraft.tags.ItemTags;
 import net.minecraft.util.LazyLoadedValue;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModTier implements Tier {
+public enum ModToolTier implements Tier {
     /*
     WOOD(0, 59, 2.0F, 0.0F, 15, () -> {
         return Ingredient.of(ItemTags.PLANKS);
@@ -41,7 +39,7 @@ public enum ModTier implements Tier {
     private final int enchantmentValue;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ModTier(int toolTier, int durability, float speed, float damage, int enchantmentModifier, Supplier<Ingredient> p_43337_) {
+    private ModToolTier(int toolTier, int durability, float speed, float damage, int enchantmentModifier, Supplier<Ingredient> p_43337_) {
         this.level = toolTier;
         this.uses = durability;
         this.speed = speed;

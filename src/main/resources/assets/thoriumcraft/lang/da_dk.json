@@ -1,0 +1,22 @@
+{
+  "item.thoriumcraft.thorium_ingot": "Thoriumbarre",
+  "item.thoriumcraft.thorium_nugget": "Thoriumklump",
+  "item.thoriumcraft.raw_thorium": "Rå thorium",
+  "item.thoriumcraft.thorium_pickaxe": "Thoriumhakke",
+  "item.thoriumcraft.thorium_axe": "Thoriumøkse",
+  "item.thoriumcraft.thorium_sword": "Thoriumsværd",
+  "item.thoriumcraft.thorium_shovel": "Thoriumspade",
+  "item.thoriumcraft.thorium_hoe": "Thoriumlugejern",
+  "item.thoriumcraft.thorium_apple": "Thoriumæble",
+  "item.thoriumcraft.thorium_blowtorch": "Thoriumbunselbrænder",
+  "item.thoriumcraft.thorium_helmet": "Thoriumhjælm",
+  "item.thoriumcraft.thorium_chestplate": "Thoriumbrystplade",
+  "item.thoriumcraft.thorium_leggings": "Thoriumbukser",
+  "item.thoriumcraft.thorium_boots": "Thoriumstøvler",
+
+  "block.thoriumcraft.thorium_block": "Block af thorium",
+  "block.thoriumcraft.thorium_ore": "Thoriummalm",
+  "block.thoriumcraft.thorium_tile": "Thoriumflise",
+
+  "itemGroup.thoriumcraftTab": "Thoriumcraft"
+}

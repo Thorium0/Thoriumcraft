@@ -9,9 +9,14 @@
   "item.thoriumcraft.thorium_hoe": "Thorium Hoe",
   "item.thoriumcraft.thorium_apple": "Thorium Apple",
   "item.thoriumcraft.thorium_blowtorch": "Thorium Blowtorch",
+  "item.thoriumcraft.thorium_helmet": "Thorium Helmet",
+  "item.thoriumcraft.thorium_chestplate": "Thorium Chestplate",
+  "item.thoriumcraft.thorium_leggings": "Thorium Leggings",
+  "item.thoriumcraft.thorium_boots": "Thorium Boots",
 
   "block.thoriumcraft.thorium_block": "Thorium Block",
   "block.thoriumcraft.thorium_ore": "Thorium Ore",
+  "block.thoriumcraft.thorium_tile": "Thorium Tile",
 
   "itemGroup.thoriumcraftTab": "Thoriumcraft"
 }
