@@ -10,13 +10,13 @@
   "item.thoriumcraft.thorium_apple": "Thorium appel",
   "item.thoriumcraft.thorium_blowtorch": "Thorium gasbrander",
   "item.thoriumcraft.thorium_helmet": "Thorium helm",
-  "item.thoriumcraft.thorium_chestplate": "Thorium borstplaat",
-  "item.thoriumcraft.thorium_leggings": "Thorium legging",
+  "item.thoriumcraft.thorium_chestplate": "Thorium kuras",
+  "item.thoriumcraft.thorium_leggings": "Thorium beenstukken",
   "item.thoriumcraft.thorium_boots": "Thorium laarzen",
 
-  "block.thoriumcraft.thorium_block": "Thorium blok",
-  "block.thoriumcraft.thorium_ore": "Thorium erts",
-  "block.thoriumcraft.thorium_tile": "Thorium tegel",
+  "block.thoriumcraft.thorium_block": "Thoriumblok",
+  "block.thoriumcraft.thorium_ore": "Thoriumerts",
+  "block.thoriumcraft.thorium_tile": "Thorium tegels",
 
   "itemGroup.thoriumcraftTab": "Thoriumcraft"
 }
