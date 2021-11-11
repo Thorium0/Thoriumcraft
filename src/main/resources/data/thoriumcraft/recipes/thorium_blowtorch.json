@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "thoriumcraft:thorium_ingot"
+      "tag": "forge:ingots/thorium"
     },
     "o": {
-      "item": "thoriumcraft:thorium_block"
+      "tag": "forge:storage_blocks/thorium"
     },
     "n": {
       "item": "thoriumcraft:thorium_nugget"

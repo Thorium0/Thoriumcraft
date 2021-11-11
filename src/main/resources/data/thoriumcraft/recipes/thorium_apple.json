@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "thoriumcraft:thorium_nugget"
+      "tag": "forge:nuggets/thorium"
     },
     "x": {
       "item": "minecraft:apple"

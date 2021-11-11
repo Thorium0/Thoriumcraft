@@ -4,7 +4,7 @@
   "ingredient": {
     "item": "thoriumcraft:raw_thorium"
   },
-  "result": "thoriumcraft:thorium_ingot",
+  "tag": "forge:ingots/thorium",
   "experience": 0.7,
   "cookingtime": 200
 }
